@@ -1,4 +1,4 @@
-const editOneorTwo = require("../lib/editOneorTwo");
+const editOneorTwo = require("../../lib/myOwnStuff/editOneorTwo");
 describe("editOneorTwo", () => {
   describe("one letter removed", () => {
     it("should return the first unique character with capital", () => {
@@ -12,7 +12,7 @@ describe("editOneorTwo", () => {
       expect(result).toEqual(true);
     });
   });
-  describe("1 letter changedr", () => {
+  describe("1 letter changed", () => {
     it("return true", () => {
       const result = editOneorTwo("pale", "bale");
       expect(result).toEqual(true);
@@ -27,6 +27,12 @@ describe("editOneorTwo", () => {
   describe("added one letter and edited one letter", () => {
     it("return false", () => {
       const result = editOneorTwo("face", "facts");
+      expect(result).toEqual(false);
+    });
+  });
+  describe("experimental case", () => {
+    it("return false", () => {
+      const result = editOneorTwo("abc", "abde");
       expect(result).toEqual(false);
     });
   });

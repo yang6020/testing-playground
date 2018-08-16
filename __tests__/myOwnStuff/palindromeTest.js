@@ -1,4 +1,4 @@
-const palindrome = require("../lib/palindrome.js");
+const palindrome = require("../../lib/myOwnStuff/palindrome.js");
 describe("palindrome", () => {
   describe("when it is a palindrome", () => {
     it("should return true", () => {

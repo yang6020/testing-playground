@@ -1,4 +1,4 @@
-const frogJumps = require("../lib/frogjumps.js");
+const frogJumps = require("../../lib/myOwnStuff/frogjumps.js");
 describe("frogJumps", () => {
   describe("when start is equal to end", () => {
     it("should return 0", () => {

@@ -1,4 +1,4 @@
-const minimalPositive = require("../lib/minimalPositive");
+const minimalPositive = require("../../lib/myOwnStuff/minimalPositive");
 describe("minimalPositive", () => {
   describe("only positive numbers", () => {
     it("should return the minimal positive number", () => {

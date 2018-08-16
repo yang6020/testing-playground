@@ -1,4 +1,4 @@
-const characterCount = require("../lib/characterCount");
+const characterCount = require("../../lib/myOwnStuff/characterCount");
 
 describe("characterCount", () => {
   describe("when string doesn't have repeats", () => {

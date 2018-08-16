@@ -1,4 +1,4 @@
-const unique = require("../lib/firstUnique");
+const unique = require("../../lib/myOwnStuff/firstUnique");
 describe("unique", () => {
   describe("with one unique", () => {
     it("should return the first unique character with capital", () => {
